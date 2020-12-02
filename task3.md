@@ -5,6 +5,4 @@
 
 # Solution
 
-I got only one answer with 12 twos.
-
-(22-2\*2)/2 + 2222-222 == 2009
+22/2-2+2222-222 == 2009
