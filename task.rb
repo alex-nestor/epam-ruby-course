@@ -1,6 +1,6 @@
 def compare_strings(s1, s2)
-  str1 = validate(s1)
-  str2 = validate(s2)
+  s1 = validate(s1)
+  s2 = validate(s2)
   res = check(s1, s2)
 end
 
@@ -23,12 +23,10 @@ def validate(str)
 end
 
 def check(str1, str2)
-  puts str1, str2
   sum1 = 0
   sum2 = 0
   str1.each_byte { |c| sum1 += c }
   str2.each_byte { |c| sum2 += c }
-  puts sum1, sum2
   sum1 == sum2
 end
 
